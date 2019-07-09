@@ -24,7 +24,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2018120300;
+/* SNOMED International Customization of Crosshairs images in pix.
+    No other differences from the core version.
+*/
+$plugin->version   = 2018120301;
 $plugin->requires  = 2018112800;
 
 $plugin->component = 'qtype_ddmarker';
